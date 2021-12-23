@@ -1,0 +1,22 @@
+/* .maskImg{
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+} */
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  text-align: center;
+  font-size: 3rem;
+  z-index: -1;
+}
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.main {
+  z-index: 100;
+}
